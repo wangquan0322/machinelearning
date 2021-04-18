@@ -8,7 +8,7 @@ import statsmodels.api as sm
 from statsmodels.formula.api import ols
 import numpy as np
 
-os.chdir(r"C:\Users\Administrator\Desktop\python数据科学技术与商业实践代码\源代码\Python_book\7Linearmodel")
+os.chdir(r"C:\Users\Administrator\Desktop\machine_learning\python数据科学技术详解代码\rawdata")
 
 
 raw = pd.read_csv(r'creditcard_exp.csv', skipinitialspace=True)
